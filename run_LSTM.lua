@@ -3,7 +3,7 @@
 require 'pause'
 require 'train_hawkes_LSTM'
 
-local dim = {[1] = 10, [0] = 1}
+local dim = {[1] = 100, [0] = 1}
 local dt0 = 1.25
 local step_reduction = 0.75
 
